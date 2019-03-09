@@ -1,0 +1,225 @@
+
+
+
+
+*{
+    box-sizing: border-box;
+    border-collapse: collapse;
+    max-width:;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+
+.row {
+    width: 100%;
+
+}
+.header {background: black;padding: 10px 
+	}
+ .header h2{float: left; color: white; padding: 10px;}
+.header ul{float: right; padding: 10px;}
+.header  a { text-decoration: none; color: white; padding: 10px;}
+.header  li {display: inline;}
+
+.row:before, 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+.default {
+    width: 100%;
+    max-width:;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.row h1{ 
+    width: 50%;
+  margin: 0 auto;
+    padding: 20px;
+    }
+
+  .rowred div{ float: left; /* this is the content styling for the left side of the page*/
+  width: 33.33%; 
+
+background-color: ;
+padding: 10px;
+border-radius: 10%;
+}
+
+
+
+.rowgreen div{ float: left; /* this is the content styling for the middle section of the page*/
+  width: 33.33%; 
+  padding: px;
+
+background-color:;
+border-radius: 10%;
+}
+
+.rowblue div{ float: left; /* this is the content styling for the right side of the page*/
+  width: 33.33%; 
+ padding: 10px;
+
+background-color: ;
+border-radius: 10%;
+}
+
+body{background-repeat: no-repeat; }
+
+
+
+/* General Styles */
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+.row {
+    width:100%;
+    max-height: 1000px;
+}
+.row:after,
+.row:before {
+    content: "";
+    display: table;
+    clear: both;
+}     
+.container {
+    width: 100%;
+   
+     max-height: 1000px;
+    margin: 0 auto 10px;
+    
+}
+.header {background: black;padding: 10px 
+	}
+ .header h2{float: left; color: white; padding: 10px;}
+.header ul{float: right; padding: 10px;}
+.header  a { text-decoration: none; color: white; padding: 10px;}
+.header  li {display: inline;}
+
+.two img{
+margin: 20px auto;}
+
+.two {float: left;
+width: 30%;
+margin: 2.0%}
+
+.three {float: left;
+width: 33.33%;
+	text-align: center;
+}
+.three img{margin: 0 auto;
+display: block;}
+h2{text-align: center}
+
+table{ margin: 0 auto;
+background-color: black;
+border-collapse: collapse;}
+
+td, tr,th {border: 2px solid white; color: white}
+.blog .two{background-color: #999; border-radius: 10px; padding:10px }
+.footer{background-color: black; color: white; text-align: center;}
+
+
+
+* {
+    box-sizing: border-box;
+}
+.row {
+    width:100%;
+	;
+}
+.row:after,
+.row:before {
+    content: "";
+    display: table;
+    clear: both;
+}
+.header {background: black;padding: 10px 
+	}
+ .header h2{float: left; color: white; padding: 10px;}
+.header ul{float: right; padding: 10px;}
+.header  a { text-decoration: none; color: white; padding: 10px;}
+.header  li {display: inline;}
+
+body, html {
+    margin: 0;
+    height: 100%;
+    line-height: 1.4em;
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+}
+.main {
+    height: 100%;
+}
+
+.left{ float: left;
+	height: auto;
+	width: 25%;
+	background-color: ;
+    
+	color: white;
+	text-align: center
+}
+
+
+.middle{float: left;
+	height: 100%;
+	width: 50%;
+	background-color: ;
+	display: block;
+
+	margin: 0 auto;
+	
+	color: white;
+	
+}
+
+.right{float: right;
+	height: 100%;
+    border: 2px solid black;
+	width: 25%;
+background-color: black;
+	color: white;
+}
+
+
+.white-box{ background-color: white;margin-bottom: 30px}
+.white-box img { float: left; margin: 10px; margin-right: 20px} 
+.white-box p{ font-size: 15px; color: green;
+
+
+}
+.one-third{float: left;
+width: 33%;
+
+	
+text-align: center;
+	color: white;
+}
+.one-third img{display: block
+padding: 50px;}
+
+.footer { text-align: center;
+background-color: black;
+
+color: white; 
+}
+
+ul{padding-left: 20px;}
+
